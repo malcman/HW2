@@ -1,0 +1,14 @@
+<h1>Album Name: {{ album }}</h1>
+<p>You rated it a {{ rate }}.</p>
+
+{% if rate == "1" %}
+<p>Why so bitter?</p>
+{% endif %}
+
+{% if rate == "2" %}
+<p>Wonder why something so mediocre came to mind...</p>
+{% endif %}
+
+{% if rate == "3" %}
+<p>Nice.</p>
+{% endif %}

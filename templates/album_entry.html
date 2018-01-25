@@ -1,0 +1,5 @@
+<form method="GET" action="{{ url_for('albumResult') }}">
+    {{ form.album.label }} {{ form.album() }} <br>
+    {{ form.rate.label }} {{ form.rate() }} <br>
+    {{ form.submit() }}
+</form>
